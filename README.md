@@ -94,23 +94,6 @@ Zone 2 and Zone 3 correlate 0.83 and 0.75 with Zone 1 respectively — high mult
 
 ---
 
-## 📈 Results
-
-| Metric | LSTM Model | Naive Baseline |
-|---|---|---|
-| RMSE | ADD YOUR VALUE kW | ADD YOUR VALUE kW |
-| MAE | ADD YOUR VALUE kW | — |
-| Improvement | ADD YOUR % better than naive | — |
-
-> Naive baseline = predicting next interval equals current interval.
-> Beating this baseline by a meaningful margin confirms the LSTM is
-> learning real temporal patterns, not just memorizing recent values.
-
-> Evaluated on chronological 80/20 split — test set is the most
-> recent 20% of dates, never seen during training.
-
----
-
 ## 🌐 Streamlit Web App
 
 The app allows users to input current weather and power conditions and receive a prediction for the next 10-minute interval in real time.
