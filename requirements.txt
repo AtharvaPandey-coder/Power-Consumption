@@ -1,0 +1,11 @@
+streamlit
+numpy
+pandas
+tensorflow
+scikit-learn
+h5py
+
+
+
+
+
