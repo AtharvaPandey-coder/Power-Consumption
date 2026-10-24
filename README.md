@@ -1,3 +1,11 @@
+## 🚀 Live Demo
+
+Try the deployed Power Consumption Predictor here:
+
+👉 **[Launch Power Consumption Predictor](https://power-consumption-ansxhemyq9wqbthkjkubac.streamlit.app/)**
+
+Predict the next 10-minute power consumption using an LSTM-based deep learning model.
+
 # ⚡ Power Consumption Forecasting System
 
 A deep learning project that predicts short-term electrical power consumption using LSTM (Long Short-Term Memory) neural networks trained on real smart grid data from Tetuan City, Morocco.
