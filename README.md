@@ -168,6 +168,17 @@ Added 24-hour (Zone1_MA144) and 7-day (Zone1_MA1008) rolling averages as input f
 StandardScaler expects all feature columns to perform inverse transformation. A dummy array of zeros is created, the scaled prediction is inserted at the correct column index, inverse_transform is applied to the full dummy, then only the target column is extracted. This is necessary because the scaler was fitted on all features together.
 
 ---
+## 🎨 UI Theme
+
+The application features a **Dark Energy Tech** theme with a deep navy background, electric cyan accents, and clean typography. The design creates a modern energy analytics experience while keeping the prediction interface clear, readable, and easy to use.
+
+- **Background:** Deep Navy (`#0B1220`)
+- **Primary Accent:** Electric Cyan (`#22D3EE`)
+- **Secondary Background:** Dark Slate (`#172033`)
+- **Text:** Soft White (`#F1F5F9`)
+- **Framework:** Streamlit's built-in theme configuration
+
+The interface is designed to complement the project's focus on electricity consumption prediction and machine learning-based energy analytics.
 
 ## 🔮 Future Improvements
 
